@@ -55,6 +55,8 @@ define('LOGGED_IN_SALT',        getenv('LOGGED_IN_SALT'));
 define('NONCE_SALT',            getenv('NONCE_SALT'));
 define('AWS_ACCESS_KEY_ID',     getenv('AWS_ACCESS_KEY_ID'));
 define('AWS_SECRET_ACCESS_KEY', getenv('AWS_SECRET_ACCESS_KEY'));
+define('WP_SITEURL', 'http://skello-wordpress.herokuapp.com/?page_id=6');
+define('WP_HOME', 'http://skello-wordpress.herokuapp.com/?page_id=6');
 
 /**#@-*/
 
